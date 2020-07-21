@@ -1,10 +1,10 @@
 buildscript {
-    ext.kotlin_version = '1.4-M3'
+    ext.kotlin_version = '1.4.20-dev-2495'
 
     repositories {
         mavenCentral()
         maven { url 'https://jitpack.io' }
-        maven { url "https://dl.bintray.com/kotlin/kotlin-eap/" }
+        maven { url "https://dl.bintray.com/kotlin/kotlin-dev/" }
     }
 
     dependencies {
@@ -32,7 +32,7 @@ repositories {
     maven { url 'https://jitpack.io' }
     maven { url 'https://kotlin.bintray.com/kotlinx' }
     jcenter()
-    maven { url "https://dl.bintray.com/kotlin/kotlin-eap/" }
+    maven { url "https://dl.bintray.com/kotlin/kotlin-dev/" }
 }
 
 idea {
